@@ -10,6 +10,7 @@ group :assets do
 end
 
 gem 'audiostream_core', :path => "vendor/engines/audiostream_core"
+gem 'audiostream_module', :path => "vendor/engines/audiostream_module"
 gem 'i18n-js'
 gem 'requirejs-rails'
 gem 'ejs'
