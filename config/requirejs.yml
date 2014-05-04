@@ -1,0 +1,6 @@
+paths:
+  I18n: "i18n"
+shim:
+  I18n:
+    deps: ['i18n/translations']
+    exports: 'I18n'

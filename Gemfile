@@ -11,3 +11,4 @@ end
 
 gem 'audiostream_core', :path => "vendor/engines/audiostream_core"
 gem 'i18n-js'
+gem 'requirejs-rails'

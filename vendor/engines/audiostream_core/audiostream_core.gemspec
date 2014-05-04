@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 3.2.17"
   s.add_dependency "i18n-js"
+  s.add_dependency "requirejs-rails"
 
   s.add_development_dependency "sqlite3"
 end
