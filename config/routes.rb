@@ -1,3 +1,3 @@
 Audioapp::Application.routes.draw do
-  root :to => 'home#index'
+  mount Audiostream::Core::Engine => "/"
 end
