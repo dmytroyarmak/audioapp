@@ -1,6 +1,3 @@
-paths:
-  I18n: "i18n"
-shim:
-  I18n:
-    deps: ['i18n/translations']
-    exports: 'I18n'
+modules:
+  - name: 'audiostream/core/application'
+wrap: true

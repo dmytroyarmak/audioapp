@@ -3,7 +3,13 @@
 <head>
   <title>AudiostreamCore</title>
   <%= stylesheet_link_tag    "audiostream/core/application", :media => "all" %>
-  <%= requirejs_include_tag "audiostream/core/application" %>
+
+  <% if Rails.env.production? %>
+    <%= javascript_include_tag "audiostream/core/application" %>
+  <% else %>
+    <%= requirejs_include_tag "audiostream/core/application" %>
+  <% end %>
+
   <%= csrf_meta_tags %>
 </head>
 <body>
